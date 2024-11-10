@@ -1,10 +1,11 @@
-import React from 'react';
 import Spline from '@splinetool/react-spline';
 
-export default function SplineScene() {
+export default function Home() {
   return (
-    <main style={{ width: '100%', height: '100vh' }}>
-      <Spline scene="https://prod.spline.design/kaqGYIKhk3FIDEvL/scene.splinecode" />
+    <main>
+      <Spline
+        scene="https://prod.spline.design/6IMA3vyVAOQyjOsD/scene.splinecode" 
+      />
     </main>
   );
 }

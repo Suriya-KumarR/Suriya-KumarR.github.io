@@ -1,0 +1,46 @@
+.right-panel {
+    width: 50%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #181818;
+    padding: 2rem;
+    color: white;
+  }
+  
+  /* Basic styling for each section */
+  .right-panel section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #000000;
+    border-radius: 8px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
+  /* Class added when the section is visible */
+  .right-panel section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .right-panel h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .right-panel p,
+  .right-panel ul {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .right-panel ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .right-panel li {
+    margin-bottom: 0.5rem;
+  }
+  

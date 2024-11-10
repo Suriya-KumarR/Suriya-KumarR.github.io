@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.left-panel {
+  width: 50%;  /* Left panel takes up 50% */
+  height: 100vh;
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  /* Left-align content */
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.right-panel {
+  width: 50%;  /* Right panel takes up 50% */
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #181818;
+  padding: 2rem;
+  color: white;
+}
+
